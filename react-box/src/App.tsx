@@ -1,8 +1,11 @@
-import Message from "./Message";
+import Navigation from "./components/Navigation";
 
 function App() {
-
-  return <div><Message></Message></div>;
+  return (
+    <div>
+      <Navigation></Navigation>
+    </div>
+  );
 }
 
 export default App;
